@@ -12,5 +12,24 @@
  *
  *= require_tree .
  *= require_self
+ *= require main
  */
-@import "bulma";
+
+.navbar-brand {
+  & .title {
+    color: white;
+  }
+}
+
+//rounden imgs
+
+.image {
+  border-radius: 50%;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.notification:not(:last-child) {
+  margin-bottom: 0;
+}
